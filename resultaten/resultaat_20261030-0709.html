@@ -1,0 +1,597 @@
+<!doctype html>
+<html lang="nl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Nakijk-estafette</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=Kalam:wght@400;700&display=swap" rel="stylesheet">
+<script>window.__clefInline = {"versie": 1, "run_id": 1793340414196, "modus": "live", "bron": null, "status": "klaar", "gestart": 1793340414196, "klaar_op": 1793340542760, "fout": null, "vraag": "Leg in maximaal 3 zinnen uit hoe de waterkringloop werkt. Noem minimaal drie fasen.", "endpoint": "https://chat.nolai.nl/ollama/api/chat", "stappen": {"triage": {"naam": "Tev1", "rol": "Triage: is dit een serieuze poging?", "bedoeld": "ERASMUS.tev1:4b", "kandidaten": ["ERASMUS.tev1:4b", "ERASMUS.tev1:0.8b"], "probeert": "ERASMUS.tev1:0.8b", "gebruikt": "ERASMUS.tev1:0.8b", "uitgevallen": [{"model": "ERASMUS.tev1:4b", "reden": "HTTP 400 Error code: 400 - {\"detail\":\"\\\"tev1:4b\\\" does not support chat\"}"}], "status": "klaar", "gestart": 1793340414456, "duur": 2.0}, "scoring": {"naam": "Nimble", "rol": "Score 0–2 + fout-tag (twee keuzevragen)", "bedoeld": "CLUSTER.nimble:9b", "kandidaten": ["CLUSTER.nimble:9b", "CLUSTER.qwen3.8:latest"], "probeert": "CLUSTER.nimble:9b", "gebruikt": "CLUSTER.nimble:9b", "uitgevallen": [], "status": "klaar", "gestart": 1793340416509, "duur": 19.8}, "feedback": {"naam": "Qwen3.8", "rol": "Formatieve feedback (taalmodel)", "bedoeld": "CLUSTER.qwen3.8:latest", "kandidaten": ["CLUSTER.qwen3.8:latest", "CLUSTER.ornith-1.5:35b"], "probeert": "CLUSTER.qwen3.8:latest", "gebruikt": "CLUSTER.qwen3.8:latest", "uitgevallen": [], "status": "klaar", "gestart": 1793340436287, "duur": 61.2}, "briefing": {"naam": "Qwen3.8", "rol": "Docent-briefing + actieplan", "bedoeld": "CLUSTER.qwen3.8:latest", "kandidaten": ["CLUSTER.qwen3.8:latest"], "probeert": "CLUSTER.qwen3.8:latest", "gebruikt": "CLUSTER.qwen3.8:latest", "uitgevallen": [], "status": "klaar", "gestart": 1793340497461, "duur": 45.3}}, "leerlingen": [{"id": "L01", "antwoord": "Water verdampt door de warmte van de zon, kondenseert in de hoge lucht tot wolken en valt als neerslag, regen of sneeuw, terug op aarde.", "verwacht": {"triage": "GELDIG", "score": 2}, "actief": null, "actief_sinds": null, "triage": "GELDIG", "triage_model": "ERASMUS.tev1:0.8b", "triage_letter": "A", "triage_letter2": null, "triage_reden": null, "triage_s": 0.8, "score": 2, "fout_tag": "[Geen fout]", "score_model": "CLUSTER.nimble:9b", "score_letter": "A", "tag_letter": null, "score_s": 1.1, "feedback": "Prima, je beschrijft de volledige waterkringloop correct en helder. Je bent klaar voor de volgende stap!", "feedback_model": "CLUSTER.qwen3.8:latest", "feedback_s": 4.1}, {"id": "L02", "antwoord": "De waterkringloop bestaat uit verdamping, condensatie en neerslag. Water stoomt op uit zeeën, wordt wolken en regent of sneuvelt weer naar beneden.", "verwacht": {"triage": "GELDIG", "score": 2}, "actief": null, "actief_sinds": null, "triage": "GELDIG", "triage_model": "ERASMUS.tev1:0.8b", "triage_letter": "A", "triage_letter2": null, "triage_reden": null, "triage_s": 0.9, "score": 2, "fout_tag": "[Geen fout]", "score_model": "CLUSTER.nimble:9b", "score_letter": "A", "tag_letter": null, "score_s": 1.1, "feedback": "Mooi gedaan, je beschrijft de waterkringloop volledig correct. Je hebt de drie kernfasen perfect geïdentificeerd en de volgorde van het proces is kloppend.", "feedback_model": "CLUSTER.qwen3.8:latest", "feedback_s": 9.5}, {"id": "L03", "antwoord": "Het water gaat omhoog als damp, maakt wolken en dan regent het weer.", "verwacht": {"triage": "GELDIG", "score": 2}, "actief": null, "actief_sinds": null, "triage": "GELDIG", "triage_model": "ERASMUS.tev1:0.8b", "triage_letter": "A", "triage_letter2": null, "triage_reden": null, "triage_s": 0.9, "score": 2, "fout_tag": "[Geen fout]", "score_model": "CLUSTER.nimble:9b", "score_letter": "A", "tag_letter": null, "score_s": 1.9, "feedback": "Wat een perfecte beschrijving van de waterkringloop! Je hebt de drie belangrijkste stappen, namelijk verdamping, condensatie en neerslag, exact in de juiste volgorde benoemd.", "feedback_model": "CLUSTER.qwen3.8:latest", "feedback_s": 5.5}, {"id": "L04", "antwoord": "Water verdamp en dan regent het weer op de grond.", "verwacht": {"triage": "GELDIG", "score": 1}, "actief": null, "actief_sinds": null, "triage": "GELDIG", "triage_model": "ERASMUS.tev1:0.8b", "triage_letter": "A", "triage_letter2": null, "triage_reden": null, "triage_s": 0.6, "score": 1, "fout_tag": "[Vergeet condensatie]", "score_model": "CLUSTER.nimble:9b", "score_letter": "B", "tag_letter": "B", "score_s": 2.2, "feedback": "Goed dat je de verdamping en neerslag benoemt, maar vergeet niet dat het water eerst moet condenseren tot wolken voordat het kan regenen. Probeer de volledige kringloop te voltooien door die tussenstap expliciet te maken.", "feedback_model": "CLUSTER.qwen3.8:latest", "feedback_s": 7.4}, {"id": "L05", "antwoord": "Eerst valt er neerslag uit de lucht en daarna verdampt het water weer in de oceaan.", "verwacht": {"triage": "GELDIG", "score": 1}, "actief": null, "actief_sinds": null, "triage": "GELDIG", "triage_model": "ERASMUS.tev1:0.8b", "triage_letter": "A", "triage_letter2": null, "triage_reden": null, "triage_s": 0.3, "score": 1, "fout_tag": "[Vergeet condensatie]", "score_model": "CLUSTER.nimble:9b", "score_letter": "B", "tag_letter": "B", "score_s": 3.4, "feedback": "Je hebt goed begrepen dat neerslag en verdamping deel uitmaken van de kringloop, maar je bent de stap condensatie vergeten. Maak de cirkel compleet door te benadrukken dat waterdamp eerst moet condenseren tot wolken voordat het als neerslag naar beneden kan vallen.", "feedback_model": "CLUSTER.qwen3.8:latest", "feedback_s": 11.0}, {"id": "L06", "antwoord": "De zon verwarmt het water in de zee en dat komt omhoog als wolken in de lucht.", "verwacht": {"triage": "GELDIG", "score": 1}, "actief": null, "actief_sinds": null, "triage": "GELDIG", "triage_model": "ERASMUS.tev1:0.8b", "triage_letter": "A", "triage_letter2": null, "triage_reden": null, "triage_s": 0.3, "score": 1, "fout_tag": "[Begripsfout]", "score_model": "CLUSTER.nimble:9b", "score_letter": "B", "tag_letter": "E", "score_s": 3.4, "feedback": "Je hebt goed begrepen dat de zon de verdrijving van water in gang zet, maar wolken ontstaan pas als dat waterdamp in de lucht afkoelt en condenseert. Let op dat water zelf niet omhoog komt, maar eerst verdampt tot onzichtbare damp.", "feedback_model": "CLUSTER.qwen3.8:latest", "feedback_s": 9.1}, {"id": "L07", "antwoord": "Wolken vallen uit de lucht en dan stroomt het water in de zee.", "verwacht": {"triage": "GELDIG", "score": 1}, "actief": null, "actief_sinds": null, "triage": "GELDIG", "triage_model": "ERASMUS.tev1:0.8b", "triage_letter": "A", "triage_letter2": null, "triage_reden": null, "triage_s": 0.4, "score": 1, "fout_tag": "[Vergeet neerslag]", "score_model": "CLUSTER.nimble:9b", "score_letter": "B", "tag_letter": "C", "score_s": 3.2, "feedback": "Goed dat je de condensatie in wolken herkent, maar let op: wolken zelf vallen niet, maar het water daalt als neerslag. Maak de cirkel compleet door te benoemen dat dit water via de neerslag weer in de zee terechtkomt.", "feedback_model": "CLUSTER.qwen3.8:latest", "feedback_s": 11.6}, {"id": "L08", "antwoord": "Het water stroomt via rivieren naar de zee en komt dan weer terug in de lucht.", "verwacht": {"triage": "GELDIG", "score": 1}, "actief": null, "actief_sinds": null, "triage": "GELDIG", "triage_model": "ERASMUS.tev1:0.8b", "triage_letter": "A", "triage_letter2": null, "triage_reden": null, "triage_s": 0.3, "score": 1, "fout_tag": "[Begripsfout]", "score_model": "CLUSTER.nimble:9b", "score_letter": "B", "tag_letter": "E", "score_s": 4.8, "feedback": "Goed dat je de verbinding tussen rivieren en zee maakt, maar let op: water komt niet direct terug in de lucht, maar verdampt eerst. De belangrijkste volgende stap is om te benoemen dat dit verdampte water als condensatie in wolkvorming resulteert, waarna neerslag de kringloop afsluit.", "feedback_model": "CLUSTER.qwen3.8:latest", "feedback_s": 10.2}, {"id": "L09", "antwoord": "Als het warm is dan verdampt het water en dat wordt dan wind die de wolken door de lucht duwt.", "verwacht": {"triage": "GELDIG", "score": 1}, "actief": null, "actief_sinds": null, "triage": "GELDIG", "triage_model": "ERASMUS.tev1:0.8b", "triage_letter": "A", "triage_letter2": null, "triage_reden": null, "triage_s": 0.2, "score": 0, "fout_tag": "[Begripsfout]", "score_model": "CLUSTER.nimble:9b", "score_letter": "C", "tag_letter": "E", "score_s": 3.7, "feedback": "Goed dat je ziet dat warmte water laat verdampen, maar let op: het verdampte water wordt waterdamp, geen wind. De volgende stap is om te begrijpen dat deze damp opstijgt, afkoelt en condenseert tot wolken, waarna neerslag volgt.", "feedback_model": "CLUSTER.qwen3.8:latest", "feedback_s": 11.4}, {"id": "L10", "antwoord": "De waterkringloop is een soort kring van water die altijd door blijft gaan.", "verwacht": {"triage": "GELDIG", "score": 0}, "actief": null, "actief_sinds": null, "triage": "GELDIG", "triage_model": "ERASMUS.tev1:0.8b", "triage_letter": "A", "triage_letter2": null, "triage_reden": null, "triage_s": 0.3, "score": 0, "fout_tag": "[Begripsfout]", "score_model": "CLUSTER.nimble:9b", "score_letter": "C", "tag_letter": "E", "score_s": 3.9, "feedback": "Je hebt goed gevat dat de waterkringloop continu doorgaat, maar het is belangrijk om te beseffen dat het water niet letterlijk in een kring beweegt, maar van fase verandert. De volgende stap is om te benoemen hoe water via verdamping, condensatie en neerslag terugkeert naar de aarde.", "feedback_model": "CLUSTER.qwen3.8:latest", "feedback_s": 11.2}, {"id": "L11", "antwoord": "Ik denk dat het te maken heeft met de maan, want het water gaat omhoog en omlaag.", "verwacht": {"triage": "GELDIG", "score": 0}, "actief": null, "actief_sinds": null, "triage": "GELDIG", "triage_model": "ERASMUS.tev1:0.8b", "triage_letter": "B", "triage_letter2": "A", "triage_reden": "eerst 'geen poging', maar volgens de tweede vraag geen onzin: doorgelaten", "triage_s": 0.5, "score": 0, "fout_tag": "[Begripsfout]", "score_model": "CLUSTER.nimble:9b", "score_letter": "C", "tag_letter": "E", "score_s": 2.8, "feedback": "Het is goed dat je nadenkt over de beweging van het water, maar de maan beïnvloedt hier niet de waterkringloop. Kijk naar hoe water verdampt, in de lucht condensatie vormt en als neerslag terugvalt.", "feedback_model": "CLUSTER.qwen3.8:latest", "feedback_s": 9.5}, {"id": "L12", "antwoord": "Omdat vissen het water in de lucht duwen met hun staarten.", "verwacht": {"triage": "GELDIG", "score": 0}, "actief": null, "actief_sinds": null, "triage": "GELDIG", "triage_model": "ERASMUS.tev1:0.8b", "triage_letter": "A", "triage_letter2": null, "triage_reden": null, "triage_s": 0.3, "score": 0, "fout_tag": "[Begripsfout]", "score_model": "CLUSTER.nimble:9b", "score_letter": "C", "tag_letter": "E", "score_s": 4.9, "feedback": "Dat is een misvatting: vissen duwen geen water de lucht in, maar de waterkringloop begint met verdamping door de zon. Kijk naar hoe waterdamp opstijgt, condensatie vormt en uiteindelijk als neerslag terugvalt.", "feedback_model": "CLUSTER.qwen3.8:latest", "feedback_s": 10.5}, {"id": "L13", "antwoord": "De waterkringloop bestaat omdat het water honger heeft naar de aarde.", "verwacht": {"triage": "GELDIG", "score": 0}, "actief": null, "actief_sinds": null, "triage": "GELDIG", "triage_model": "ERASMUS.tev1:0.8b", "triage_letter": "A", "triage_letter2": null, "triage_reden": null, "triage_s": 0.3, "score": 0, "fout_tag": "[Begripsfout]", "score_model": "CLUSTER.nimble:9b", "score_letter": "C", "tag_letter": "E", "score_s": 4.5, "feedback": "Het is belangrijk om te beseffen dat water geen honger heeft, aangezien het een onlevende stof is. Kijk naar de natuurlijke processen zoals verdamping, condensatie en neerslag die de waterkringloop in gang houden.", "feedback_model": "CLUSTER.qwen3.8:latest", "feedback_s": 7.7}, {"id": "L14", "antwoord": "Waternoom is een dier dat in de zee woont en dat spuilt dan het water de lucht in.", "verwacht": {"triage": "ONGELDIG"}, "actief": null, "actief_sinds": null, "triage": "GELDIG", "triage_model": "ERASMUS.tev1:0.8b", "triage_letter": "B", "triage_letter2": "A", "triage_reden": "eerst 'geen poging', maar volgens de tweede vraag geen onzin: doorgelaten", "triage_s": 0.5, "score": 0, "fout_tag": "[Begripsfout]", "score_model": "CLUSTER.nimble:9b", "score_letter": "C", "tag_letter": "E", "score_s": 2.2, "feedback": "Dat is helaas een misvatting, want waternoom is geen dier maar een verouderde term voor water dat opstijgt. Kijk naar de waterkringloop: water verdampt door warmte en stijgt vanzelf naar boven, zonder dat er iets het hoeft te spuwen.", "feedback_model": "CLUSTER.qwen3.8:latest", "feedback_s": 12.8}, {"id": "L15", "antwoord": "Omdat de zon 's nachts het water drinkt en 's ochtends weer brukt op de aarde.", "verwacht": {"triage": "GELDIG", "score": 0}, "actief": null, "actief_sinds": null, "triage": "GELDIG", "triage_model": "ERASMUS.tev1:0.8b", "triage_letter": "A", "triage_letter2": null, "triage_reden": null, "triage_s": 0.3, "score": 0, "fout_tag": "[Begripsfout]", "score_model": "CLUSTER.nimble:9b", "score_letter": "C", "tag_letter": "E", "score_s": 2.3, "feedback": "Dat is een schattige gedachte, maar de zon kan geen water drinken; in werkelijkheid warmt de zon het water op waardoor het verdampt. Kijk naar de waterkringloop: de zon zorgt voor verdamping, die vervolgens in de lucht condensatie en neerslag oplevert.", "feedback_model": "CLUSTER.qwen3.8:latest", "feedback_s": 7.2}, {"id": "L16", "antwoord": "1234567890", "verwacht": {"triage": "ONGELDIG"}, "actief": null, "actief_sinds": null, "triage": "ONGELDIG", "triage_model": "voorfilter (vaste regel)", "triage_reden": "geen tekst, alleen cijfers of tekens", "triage_s": 0.0}, {"id": "L17", "antwoord": "", "verwacht": {"triage": "ONGELDIG"}, "actief": null, "actief_sinds": null, "triage": "ONGELDIG", "triage_model": "voorfilter (vaste regel)", "triage_reden": "leeg antwoord", "triage_s": 0.0}, {"id": "L18", "antwoord": "In de zee wordt water verdampt en dan regent het weer op de bergen.", "verwacht": {"triage": "GELDIG", "score": 1}, "actief": null, "actief_sinds": null, "triage": "GELDIG", "triage_model": "ERASMUS.tev1:0.8b", "triage_letter": "A", "triage_letter2": null, "triage_reden": null, "triage_s": 0.3, "score": 1, "fout_tag": "[Vergeet condensatie]", "score_model": "CLUSTER.nimble:9b", "score_letter": "B", "tag_letter": "B", "score_s": 3.4, "feedback": "Je hebt goed begrepen dat water verdampt en als neerslag terugkomt, maar je bent de cruciale stap van condensatie vergeten. Probeer je volgende keer het proces compleet te maken door te beschrijven hoe de damp eerst wolkjes vormt voordat het regent.", "feedback_model": "CLUSTER.qwen3.8:latest", "feedback_s": 12.7}, {"id": "L19", "antwoord": "Het water loopt langzaam de berg op en dan valt het er weer van af als regen.", "verwacht": {"triage": "GELDIG", "score": 1}, "actief": null, "actief_sinds": null, "triage": "GELDIG", "triage_model": "ERASMUS.tev1:0.8b", "triage_letter": "A", "triage_letter2": null, "triage_reden": null, "triage_s": 0.2, "score": 0, "fout_tag": "[Begripsfout]", "score_model": "CLUSTER.nimble:9b", "score_letter": "C", "tag_letter": "E", "score_s": 3.8, "feedback": "Goed dat je probeert de cirkel te sluiten, maar water loopt niet actief de berg op; het verdampt door de warmte van de zon en stijgt als onzichtbare damp. De volgende stap is om te beseffen dat deze damp in de lucht afkoelt en zich weer tot waterdruppels vormt (condensatie), waarna het als neerslag naar beneden valt.", "feedback_model": "CLUSTER.qwen3.8:latest", "feedback_s": 10.1}, {"id": "L20", "antwoord": "Iets met wolken en regen, maar ik weet de fases niet echt te benoemen.", "verwacht": {"triage": "GELDIG", "score": 0}, "actief": null, "actief_sinds": null, "triage": "GELDIG", "triage_model": "ERASMUS.tev1:0.8b", "triage_letter": "A", "triage_letter2": null, "triage_reden": null, "triage_s": 0.2, "score": 1, "fout_tag": "[Vergeet condensatie]", "score_model": "CLUSTER.nimble:9b", "score_letter": "B", "tag_letter": "B", "score_s": 3.2, "feedback": "Goed dat je de link met wolken en regen al maakt, maar vergeet de cruciale stap condensatie niet: waterdamp stijgt op en wordt daar koel, waardoor het weer vloeibaar wordt en wolken vormt. Probeer de volledige kringloop in je hoofd te ordenen: verdamping, condensatie en neerslag.", "feedback_model": "CLUSTER.qwen3.8:latest", "feedback_s": 12.1}], "log": [{"t": 1793340414196, "stap": null, "soort": "info", "tekst": "Run gestart: 20 exit-tickets"}, {"t": 1793340414456, "stap": "triage", "soort": "stokje", "tekst": "Tev1 neemt het stokje over"}, {"t": 1793340414822, "stap": "triage", "soort": "wissel", "tekst": "ERASMUS.tev1:4b valt uit (HTTP 400 Error code: 400 - {\"detail\":\"\\\"tev1:4b\\\" does not support chat\"}) → substitute: ERASMUS.tev1:0.8b"}, {"t": 1793340416217, "stap": "triage", "soort": "wissel", "tekst": "L11: tweede oordeel, toch doorgelaten"}, {"t": 1793340416422, "stap": "triage", "soort": "wissel", "tekst": "L14: tweede oordeel, toch doorgelaten"}, {"t": 1793340416508, "stap": "triage", "soort": "klaar", "tekst": "Tev1 klaar in 0:02"}, {"t": 1793340416509, "stap": "scoring", "soort": "stokje", "tekst": "Nimble neemt het stokje over"}, {"t": 1793340436286, "stap": "scoring", "soort": "klaar", "tekst": "Nimble klaar in 0:20"}, {"t": 1793340436287, "stap": "feedback", "soort": "stokje", "tekst": "Qwen3.8 neemt het stokje over"}, {"t": 1793340497460, "stap": "feedback", "soort": "klaar", "tekst": "Qwen3.8 klaar in 1:01"}, {"t": 1793340497461, "stap": "briefing", "soort": "stokje", "tekst": "Qwen3.8 neemt het stokje over"}, {"t": 1793340542757, "stap": "briefing", "soort": "klaar", "tekst": "Qwen3.8 klaar in 0:45"}, {"t": 1793340542760, "stap": null, "soort": "klaar", "tekst": "Estafette klaar in 2:09"}], "briefing": {"markdown": "## Samenvatting klasprestaties\nVan de 20 leerlingen in de klas hebben 18 een geldig ticket ingeleverd; de tickets van **L16** en **L17** zijn ongeldig. Het gemiddelde score is 0,72. De scoreverdeling toont een duidelijke polarisatie: 8 leerlingen kregen een 0, 7 leerlingen een 1 en 3 leerlingen een 2. Slechts 3 leerlingen (L01, L02, L03) hebben de vraag volledig correct beantwoord zonder fouten.\n\n## Veelvoorkomende misvattingen\nDe dominante fout is de **begripsfout** (10 tickets), waarbij leerlingen de mechanismen van de waterkringloop fundamenteel verkeerd interpreteren. Veelgehoorde onjuiste concepten uit de antwoorden zijn:\n*   Verwarring over de oorzaak van opstijging: leerlingen denken dat water letterlijk omhoog komt, dat de zon water \"drinkt\", dat vissen het water de lucht in duwen, of dat de maan hier invloed op heeft.\n*   Verwarring over de aard van de stof: leerlingen beschrijven verdampt water als \"wind\" of geven aan dat water \"honger\" heeft.\n*   Onjuiste volgorde of ontbrekende fasen: 4 leerlingen vergeten expliciet de fase **condensatie** (tussen verdamping en neerslag), en 1 leerling vergeten **neerslag**.\n\n## Voorstel opening volgende les\n**Activiteit: \"De Wolk in een Glas\" (Simulatie & Correctie) – 5 tot 10 minuten**\n\n1.  **Visuele demystificatie (2 min):** Toon direct aan het bord of via een projector een simpel diagram van de waterkringloop. Vraag de klas: *\"Wat gebeurt er precies tussen het moment dat water verdampt en het moment dat het regent?\"* Laat 2-3 leerlingen antwoorden.\n2.  **Directe correctie van de top-misvatting (3 min):** Adresseer specifiek de begripsfouten. Zeg: *\"Veel van jullie dachten dat water letterlijk omhoog komt of dat de zon het 'drinkt'. Dat klopt niet. Water verdampt tot onzichtbare damp. Die damp stijgt op, koelt af en wordt weer vloeibaar: dat is condensatie. Pas dan ontstaat een wolk.\"*\n3.  **Mini-check (2 min):** Vraag de leerlingen om in hun hoofd de drie fasen in de juiste volgorde te ordenen: *Verdamping → Condensatie → Neerslag*. Laat ze dit hardop uitspreken of opschrijven. Dit ankerpunt helpt de leerlingen die de condensatie vergeten (L04, L05, L18, L20) en de leerlingen met begripsfouten (L06-L15, L19) om hun mentale model te corrigeren voordat de nieuwe stof wordt behandeld.", "model": "CLUSTER.qwen3.8:latest", "lokaal": false, "payload": {"exit_ticket_vraag": "Leg in maximaal 3 zinnen uit hoe de waterkringloop werkt. Noem minimaal drie fasen.", "klas": {"aantal_leerlingen": 20, "geldig": 18, "ongeldig": 2, "ongeldige_ids": ["L16", "L17"]}, "scores": {"gemiddeld": 0.72, "verdeling": {"0": 8, "1": 7, "2": 3}}, "fout_tags": {"[Begripsfout]": 10, "[Vergeet condensatie]": 4, "[Geen fout]": 3, "[Vergeet neerslag]": 1}, "leerlingen": [{"id": "L01", "score": 2, "fout_tag": "[Geen fout]", "antwoord": "Water verdampt door de warmte van de zon, kondenseert in de hoge lucht tot wolken en valt als neerslag, regen of sneeuw, terug op aarde.", "feedback": "Prima, je beschrijft de volledige waterkringloop correct en helder. Je bent klaar voor de volgende stap!"}, {"id": "L02", "score": 2, "fout_tag": "[Geen fout]", "antwoord": "De waterkringloop bestaat uit verdamping, condensatie en neerslag. Water stoomt op uit zeeën, wordt wolken en regent of sneuvelt weer naar beneden.", "feedback": "Mooi gedaan, je beschrijft de waterkringloop volledig correct. Je hebt de drie kernfasen perfect geïdentificeerd en de volgorde van het proces is kloppend."}, {"id": "L03", "score": 2, "fout_tag": "[Geen fout]", "antwoord": "Het water gaat omhoog als damp, maakt wolken en dan regent het weer.", "feedback": "Wat een perfecte beschrijving van de waterkringloop! Je hebt de drie belangrijkste stappen, namelijk verdamping, condensatie en neerslag, exact in de juiste volgorde benoemd."}, {"id": "L04", "score": 1, "fout_tag": "[Vergeet condensatie]", "antwoord": "Water verdamp en dan regent het weer op de grond.", "feedback": "Goed dat je de verdamping en neerslag benoemt, maar vergeet niet dat het water eerst moet condenseren tot wolken voordat het kan regenen. Probeer de volledige kringloop te voltooien door die tussenstap expliciet te maken."}, {"id": "L05", "score": 1, "fout_tag": "[Vergeet condensatie]", "antwoord": "Eerst valt er neerslag uit de lucht en daarna verdampt het water weer in de oceaan.", "feedback": "Je hebt goed begrepen dat neerslag en verdamping deel uitmaken van de kringloop, maar je bent de stap condensatie vergeten. Maak de cirkel compleet door te benadrukken dat waterdamp eerst moet condenseren tot wolken voordat het als neerslag naar beneden kan vallen."}, {"id": "L06", "score": 1, "fout_tag": "[Begripsfout]", "antwoord": "De zon verwarmt het water in de zee en dat komt omhoog als wolken in de lucht.", "feedback": "Je hebt goed begrepen dat de zon de verdrijving van water in gang zet, maar wolken ontstaan pas als dat waterdamp in de lucht afkoelt en condenseert. Let op dat water zelf niet omhoog komt, maar eerst verdampt tot onzichtbare damp."}, {"id": "L07", "score": 1, "fout_tag": "[Vergeet neerslag]", "antwoord": "Wolken vallen uit de lucht en dan stroomt het water in de zee.", "feedback": "Goed dat je de condensatie in wolken herkent, maar let op: wolken zelf vallen niet, maar het water daalt als neerslag. Maak de cirkel compleet door te benoemen dat dit water via de neerslag weer in de zee terechtkomt."}, {"id": "L08", "score": 1, "fout_tag": "[Begripsfout]", "antwoord": "Het water stroomt via rivieren naar de zee en komt dan weer terug in de lucht.", "feedback": "Goed dat je de verbinding tussen rivieren en zee maakt, maar let op: water komt niet direct terug in de lucht, maar verdampt eerst. De belangrijkste volgende stap is om te benoemen dat dit verdampte water als condensatie in wolkvorming resulteert, waarna neerslag de kringloop afsluit."}, {"id": "L09", "score": 0, "fout_tag": "[Begripsfout]", "antwoord": "Als het warm is dan verdampt het water en dat wordt dan wind die de wolken door de lucht duwt.", "feedback": "Goed dat je ziet dat warmte water laat verdampen, maar let op: het verdampte water wordt waterdamp, geen wind. De volgende stap is om te begrijpen dat deze damp opstijgt, afkoelt en condenseert tot wolken, waarna neerslag volgt."}, {"id": "L10", "score": 0, "fout_tag": "[Begripsfout]", "antwoord": "De waterkringloop is een soort kring van water die altijd door blijft gaan.", "feedback": "Je hebt goed gevat dat de waterkringloop continu doorgaat, maar het is belangrijk om te beseffen dat het water niet letterlijk in een kring beweegt, maar van fase verandert. De volgende stap is om te benoemen hoe water via verdamping, condensatie en neerslag terugkeert naar de aarde."}, {"id": "L11", "score": 0, "fout_tag": "[Begripsfout]", "antwoord": "Ik denk dat het te maken heeft met de maan, want het water gaat omhoog en omlaag.", "feedback": "Het is goed dat je nadenkt over de beweging van het water, maar de maan beïnvloedt hier niet de waterkringloop. Kijk naar hoe water verdampt, in de lucht condensatie vormt en als neerslag terugvalt."}, {"id": "L12", "score": 0, "fout_tag": "[Begripsfout]", "antwoord": "Omdat vissen het water in de lucht duwen met hun staarten.", "feedback": "Dat is een misvatting: vissen duwen geen water de lucht in, maar de waterkringloop begint met verdamping door de zon. Kijk naar hoe waterdamp opstijgt, condensatie vormt en uiteindelijk als neerslag terugvalt."}, {"id": "L13", "score": 0, "fout_tag": "[Begripsfout]", "antwoord": "De waterkringloop bestaat omdat het water honger heeft naar de aarde.", "feedback": "Het is belangrijk om te beseffen dat water geen honger heeft, aangezien het een onlevende stof is. Kijk naar de natuurlijke processen zoals verdamping, condensatie en neerslag die de waterkringloop in gang houden."}, {"id": "L14", "score": 0, "fout_tag": "[Begripsfout]", "antwoord": "Waternoom is een dier dat in de zee woont en dat spuilt dan het water de lucht in.", "feedback": "Dat is helaas een misvatting, want waternoom is geen dier maar een verouderde term voor water dat opstijgt. Kijk naar de waterkringloop: water verdampt door warmte en stijgt vanzelf naar boven, zonder dat er iets het hoeft te spuwen."}, {"id": "L15", "score": 0, "fout_tag": "[Begripsfout]", "antwoord": "Omdat de zon 's nachts het water drinkt en 's ochtends weer brukt op de aarde.", "feedback": "Dat is een schattige gedachte, maar de zon kan geen water drinken; in werkelijkheid warmt de zon het water op waardoor het verdampt. Kijk naar de waterkringloop: de zon zorgt voor verdamping, die vervolgens in de lucht condensatie en neerslag oplevert."}, {"id": "L18", "score": 1, "fout_tag": "[Vergeet condensatie]", "antwoord": "In de zee wordt water verdampt en dan regent het weer op de bergen.", "feedback": "Je hebt goed begrepen dat water verdampt en als neerslag terugkomt, maar je bent de cruciale stap van condensatie vergeten. Probeer je volgende keer het proces compleet te maken door te beschrijven hoe de damp eerst wolkjes vormt voordat het regent."}, {"id": "L19", "score": 0, "fout_tag": "[Begripsfout]", "antwoord": "Het water loopt langzaam de berg op en dan valt het er weer van af als regen.", "feedback": "Goed dat je probeert de cirkel te sluiten, maar water loopt niet actief de berg op; het verdampt door de warmte van de zon en stijgt als onzichtbare damp. De volgende stap is om te beseffen dat deze damp in de lucht afkoelt en zich weer tot waterdruppels vormt (condensatie), waarna het als neerslag naar beneden valt."}, {"id": "L20", "score": 1, "fout_tag": "[Vergeet condensatie]", "antwoord": "Iets met wolken en regen, maar ik weet de fases niet echt te benoemen.", "feedback": "Goed dat je de link met wolken en regen al maakt, maar vergeet de cruciale stap condensatie niet: waterdamp stijgt op en wordt daar koel, waardoor het weer vloeibaar wordt en wolken vormt. Probeer de volledige kringloop in je hoofd te ordenen: verdamping, condensatie en neerslag."}]}}};</script>
+<style>
+:root {
+  --tafel: #DCE2E7;
+  --tafel-diep: #CDD5DC;
+  --papier: #FFFFFF;
+  --inkt: #1C2833;
+  --inkt-zacht: #56636F;
+  --lijn: #C2CBD3;
+  --stempel: #5B4FC4;   /* Tev1: sorteert met een stempel */
+  --rood: #C2302A;      /* Nimble: nakijkpen */
+  --groen: #1D7A45;     /* Clef: feedback in groen */
+  --geel: #F4C430;      /* Qwen: markeerstift */
+  --geel-zacht: #FBE7A1;
+  --fout: #A3261F;
+  --schaduw: 0 1px 0 rgba(28, 40, 51, .10), 0 3px 10px rgba(28, 40, 51, .07);
+  --hand: "Kalam", "Segoe Print", "Comic Neue", cursive;
+  --tekst: "Atkinson Hyperlegible", "Segoe UI", system-ui, sans-serif;
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --tafel: #1D2824; --tafel-diep: #17201D; --papier: #26332E; --inkt: #E7EEEA;
+    --inkt-zacht: #A3B3AB; --lijn: #3A4A43; --stempel: #A79BFF; --rood: #FF7E72;
+    --groen: #74D69E; --geel: #F4C430; --geel-zacht: #5B4B16; --fout: #FF8F86;
+    --schaduw: 0 1px 0 rgba(0,0,0,.35), 0 4px 14px rgba(0,0,0,.25);
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --tafel: #1D2824; --tafel-diep: #17201D; --papier: #26332E; --inkt: #E7EEEA;
+  --inkt-zacht: #A3B3AB; --lijn: #3A4A43; --stempel: #A79BFF; --rood: #FF7E72;
+  --groen: #74D69E; --geel: #F4C430; --geel-zacht: #5B4B16; --fout: #FF8F86;
+  --schaduw: 0 1px 0 rgba(0,0,0,.35), 0 4px 14px rgba(0,0,0,.25);
+  color-scheme: dark;
+}
+
+* { box-sizing: border-box; }
+html, body { margin: 0; }
+body {
+  background: var(--tafel);
+  color: var(--inkt);
+  font: 400 16px/1.45 var(--tekst);
+  -webkit-font-smoothing: antialiased;
+}
+button { font: inherit; color: inherit; }
+:focus-visible { outline: 3px solid var(--stempel); outline-offset: 2px; }
+
+.pagina { max-width: 1680px; margin: 0 auto; padding: 20px 28px 40px; }
+
+/* ── kop ─────────────────────────────────────────────────────────────── */
+.kop {
+  display: grid; grid-template-columns: 1fr auto; gap: 8px 32px; align-items: end;
+  padding-bottom: 18px; border-bottom: 2px solid var(--inkt);
+}
+.kop h1 { margin: 0; font-size: 17px; font-weight: 700; color: var(--inkt-zacht); }
+.vraag {
+  margin: 4px 0 0; font-family: var(--hand); font-weight: 400;
+  font-size: clamp(24px, 2.6vw, 38px); line-height: 1.15; max-width: 34ch;
+}
+.klok { text-align: right; }
+.klok .tijd { font-size: clamp(34px, 3.6vw, 54px); font-weight: 700; font-variant-numeric: tabular-nums; line-height: 1; }
+.klok .status { margin-top: 6px; font-size: 15px; color: var(--inkt-zacht); }
+.status .punt { display: inline-block; width: 9px; height: 9px; border-radius: 50%; background: var(--groen); margin-right: 6px; vertical-align: 1px; }
+.status.bezig .punt { animation: knipper 1.4s ease-in-out infinite; }
+.status.klaar .punt { background: var(--inkt-zacht); }
+.status.fout .punt { background: var(--fout); }
+.sim-melding {
+  grid-column: 1 / -1; justify-self: start; margin-top: 6px; padding: 4px 10px;
+  border: 1.5px dashed var(--inkt-zacht); border-radius: 4px; font-size: 14px; color: var(--inkt-zacht);
+}
+
+/* ── estafette ───────────────────────────────────────────────────────── */
+.estafette {
+  display: grid; grid-template-columns: repeat(4, 1fr); gap: 0; margin: 22px 0 26px;
+  position: relative;
+}
+.loper {
+  --pen: var(--inkt);
+  position: relative; padding: 14px 18px 16px 22px; background: var(--papier);
+  border-top: 6px solid var(--pen); box-shadow: var(--schaduw);
+  margin-right: 34px; min-height: 172px; display: flex; flex-direction: column;
+  transition: transform .35s ease, box-shadow .35s ease, opacity .35s ease;
+}
+.loper:last-child { margin-right: 0; }
+.loper::after {             /* het stokje dat doorgegeven wordt */
+  content: ""; position: absolute; right: -30px; top: 50%; width: 26px; height: 4px;
+  background: var(--lijn); border-radius: 2px;
+}
+.loper:last-child::after { display: none; }
+.loper.klaar::after { background: var(--pen); }
+.loper.wacht { opacity: .62; }
+.loper.bezig { transform: translateY(-4px); box-shadow: 0 0 0 2px var(--pen), var(--schaduw); }
+.loper[data-stap="triage"]   { --pen: var(--stempel); }
+.loper[data-stap="scoring"]  { --pen: var(--rood); }
+.loper[data-stap="feedback"] { --pen: var(--groen); }
+.loper[data-stap="briefing"] { --pen: #B98A00; }
+:root[data-theme="dark"] .loper[data-stap="briefing"] { --pen: var(--geel); }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .loper[data-stap="briefing"] { --pen: var(--geel); } }
+
+.loper .naam { display: flex; align-items: baseline; gap: 10px; }
+.loper .naam strong { font-size: 26px; line-height: 1.1; color: var(--pen); }
+.loper .naam span { font-size: 16px; color: var(--inkt-zacht); }
+.loper .model { margin-top: 8px; font-size: 15px; font-weight: 700; word-break: break-word; }
+.loper .vervangt { font-size: 14px; color: var(--inkt-zacht); margin-top: 2px; }
+.loper .vervangt s { text-decoration-thickness: 1.5px; }
+.loper .voortgang { margin-top: auto; padding-top: 12px; }
+.loper .balk { height: 6px; background: var(--tafel-diep); border-radius: 3px; overflow: hidden; }
+.loper .balk i { display: block; height: 100%; background: var(--pen); width: 0; transition: width .5s ease; }
+.loper .teller { display: flex; justify-content: space-between; margin-top: 6px; font-size: 14px; color: var(--inkt-zacht); font-variant-numeric: tabular-nums; }
+.loper .teller b { color: var(--inkt); }
+
+/* ── werkblad ────────────────────────────────────────────────────────── */
+.werkblad { display: grid; grid-template-columns: 1fr 360px; gap: 28px; align-items: start; }
+.sectiekop { display: flex; justify-content: space-between; align-items: baseline; margin: 0 0 12px; }
+.sectiekop h2 { margin: 0; font-size: 20px; }
+.sectiekop p { margin: 0; color: var(--inkt-zacht); font-size: 15px; }
+
+.tickets { display: grid; grid-template-columns: repeat(auto-fill, minmax(232px, 1fr)); gap: 16px; }
+.ticket {
+  --kantel: 0deg;
+  position: relative; text-align: left; border: 0; cursor: pointer;
+  background: var(--papier); box-shadow: var(--schaduw); padding: 12px 14px 14px;
+  border-left: 5px solid transparent; transform: rotate(var(--kantel));
+  min-height: 178px; display: flex; flex-direction: column; gap: 8px;
+  transition: opacity .4s ease, border-color .3s ease;
+}
+.ticket:hover { box-shadow: 0 0 0 2px var(--lijn), var(--schaduw); }
+.ticket .boven { display: flex; justify-content: space-between; align-items: flex-start; min-height: 36px; }
+.ticket .lid { font-weight: 700; font-size: 15px; letter-spacing: .02em; }
+.ticket .antwoord { font-size: 15px; line-height: 1.38; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+.ticket .antwoord.leeg { font-style: italic; color: var(--inkt-zacht); }
+.ticket .tag { font-family: var(--hand); color: var(--rood); font-size: 17px; line-height: 1.1; }
+.ticket .feedback {
+  font-family: var(--hand); color: var(--groen); font-size: 16px; line-height: 1.25;
+  display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden;
+  border-top: 1px dashed var(--lijn); padding-top: 6px; margin-top: auto;
+}
+.ticket .bezig-label { margin-top: auto; font-size: 14px; color: var(--pen, var(--inkt-zacht)); font-weight: 700; }
+.ticket .bezig-label::before { content: ""; display: inline-block; width: 8px; height: 8px; border-radius: 50%; background: currentColor; margin-right: 7px; vertical-align: 1px; animation: knipper 1.2s ease-in-out infinite; }
+.ticket.actief-triage   { --pen: var(--stempel); border-left-color: var(--stempel); }
+.ticket.actief-scoring  { --pen: var(--rood); border-left-color: var(--rood); }
+.ticket.actief-feedback { --pen: var(--groen); border-left-color: var(--groen); }
+.ticket.ongeldig { opacity: .5; }
+.ticket.ongeldig .antwoord { text-decoration: line-through; text-decoration-color: var(--inkt-zacht); }
+
+.score {
+  font-family: var(--hand); font-weight: 700; color: var(--rood); font-size: 22px; line-height: 1;
+  border: 2.5px solid var(--rood); border-radius: 50%; width: 52px; height: 40px;
+  display: grid; place-items: center; transform: rotate(-8deg); flex: none;
+}
+.stempel {
+  display: inline-block; align-self: flex-start; font-weight: 700; font-size: 12.5px; letter-spacing: .12em;
+  color: var(--stempel); border: 2px solid var(--stempel); border-radius: 3px; padding: 1px 6px;
+  transform: rotate(-4deg); opacity: .9;
+}
+.stempel.regel { border-style: dashed; }
+.regel-uitleg { font-size: 13px; color: var(--inkt-zacht); margin-top: 4px; }
+.afwijking { font-size: 13px; font-weight: 700; color: var(--fout); }
+.ticket.wijkt-af { box-shadow: inset 0 0 0 2px var(--fout), var(--schaduw); }
+.ticket.ongeldig.wijkt-af { opacity: .8; }
+.check { display: grid; grid-template-columns: 1fr auto; gap: 6px 12px; font-size: 15px; margin: 0 0 4px; }
+.check b { font-variant-numeric: tabular-nums; }
+.check .mis { grid-column: 1 / -1; font-size: 13px; color: var(--inkt-zacht); margin-top: -2px; }
+.net { animation: neerkomen .45s cubic-bezier(.2, .9, .3, 1.2); }
+
+/* ── zijkolom ────────────────────────────────────────────────────────── */
+.zij { display: flex; flex-direction: column; gap: 28px; position: sticky; top: 16px; }
+.paneel { background: var(--papier); box-shadow: var(--schaduw); padding: 16px 18px 18px; }
+.paneel h2 { margin: 0 0 12px; font-size: 18px; }
+.paneel .uitleg { margin: -6px 0 12px; font-size: 14px; color: var(--inkt-zacht); }
+.staaf { display: grid; grid-template-columns: 1fr 34px; gap: 4px 10px; align-items: center; margin-bottom: 9px; }
+.staaf .label { grid-column: 1 / -1; font-size: 14px; }
+.staaf .spoor { height: 12px; background: var(--tafel-diep); border-radius: 2px; overflow: hidden; }
+.staaf .spoor i { display: block; height: 100%; background: var(--rood); transition: width .5s ease; }
+.staaf .getal { font-weight: 700; text-align: right; font-variant-numeric: tabular-nums; }
+.kengetal { display: flex; gap: 22px; margin-bottom: 14px; }
+.kengetal div { font-size: 14px; color: var(--inkt-zacht); }
+.kengetal b { display: block; font-size: 26px; color: var(--inkt); font-variant-numeric: tabular-nums; }
+.leeg-melding { color: var(--inkt-zacht); font-size: 14px; margin: 0; }
+
+.logboek { list-style: none; margin: 0; padding: 0; max-height: 420px; overflow: auto; font-size: 14px; }
+.logboek li { display: grid; grid-template-columns: 44px 1fr; gap: 8px; padding: 6px 0; border-bottom: 1px solid var(--tafel-diep); }
+.logboek li:last-child { border-bottom: 0; }
+.logboek time { color: var(--inkt-zacht); font-variant-numeric: tabular-nums; }
+.logboek .tekst { border-left: 3px solid var(--lijn); padding-left: 8px; word-break: break-word; }
+.logboek [data-stap="triage"] .tekst { border-color: var(--stempel); }
+.logboek [data-stap="scoring"] .tekst { border-color: var(--rood); }
+.logboek [data-stap="feedback"] .tekst { border-color: var(--groen); }
+.logboek [data-stap="briefing"] .tekst { border-color: var(--geel); }
+.logboek .wissel .tekst, .logboek .stokje .tekst { font-weight: 700; }
+.logboek .fout .tekst { color: var(--fout); font-weight: 700; }
+
+/* ── briefing ────────────────────────────────────────────────────────── */
+.briefing { margin-top: 34px; }
+.briefing .blad { background: var(--papier); box-shadow: var(--schaduw); padding: 26px 34px 30px; }
+.briefing .wacht { color: var(--inkt-zacht); margin: 0; }
+.md { max-width: 78ch; }
+.md h2, .md h3 {
+  display: inline; font-size: 21px; line-height: 1.5;
+  background: linear-gradient(transparent 58%, var(--geel-zacht) 58%);
+  box-decoration-break: clone; -webkit-box-decoration-break: clone;
+}
+.md h3 { font-size: 18px; }
+.md .kopblok { margin: 26px 0 10px; }
+.md .kopblok:first-child { margin-top: 0; }
+.md p, .md li { font-size: 16px; }
+.md p { margin: 0 0 10px; }
+.md ul, .md ol { margin: 0 0 12px; padding-left: 22px; }
+.md li { margin-bottom: 4px; }
+.md blockquote { margin: 0 0 12px; padding: 6px 14px; border-left: 4px solid var(--geel); background: var(--tafel); }
+.md hr { border: 0; border-top: 1px solid var(--lijn); margin: 18px 0; }
+.md table { border-collapse: collapse; margin: 4px 0 14px; font-size: 15px; width: 100%; max-width: 78ch; }
+.md th, .md td { text-align: left; padding: 6px 10px; border-bottom: 1px solid var(--lijn); vertical-align: top; }
+.md th { border-bottom: 2px solid var(--inkt); }
+.md code { font-size: .92em; background: var(--tafel); padding: 0 4px; border-radius: 3px; }
+.briefing .bron { margin: 18px 0 0; font-size: 14px; color: var(--inkt-zacht); }
+
+/* ── detail ──────────────────────────────────────────────────────────── */
+dialog {
+  border: 0; padding: 0; width: min(640px, calc(100vw - 32px)); max-height: calc(100vh - 48px);
+  background: var(--papier); color: var(--inkt); box-shadow: 0 20px 60px rgba(0,0,0,.3);
+}
+dialog::backdrop { background: rgba(28, 40, 51, .45); }
+.detail { padding: 22px 26px 24px; }
+.detail header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px; }
+.detail h2 { margin: 0; font-size: 22px; }
+.detail .sluit { border: 1.5px solid var(--lijn); background: transparent; padding: 4px 12px; cursor: pointer; border-radius: 4px; }
+.detail .antwoord-groot { font-size: 18px; margin: 0 0 18px; padding: 12px 14px; background: var(--tafel); }
+.detail .regel { display: grid; grid-template-columns: 96px 1fr; gap: 10px; padding: 10px 0; border-top: 1px solid var(--lijn); }
+.detail .regel > b { font-size: 15px; }
+.detail .regel[data-stap="triage"] > b { color: var(--stempel); }
+.detail .regel[data-stap="scoring"] > b { color: var(--rood); }
+.detail .regel[data-stap="feedback"] > b { color: var(--groen); }
+.detail .wie { font-size: 14px; color: var(--inkt-zacht); margin-top: 2px; }
+.detail .hand { font-family: var(--hand); font-size: 19px; line-height: 1.3; }
+
+/* ── lege toestand ───────────────────────────────────────────────────── */
+.nog-niets { max-width: 620px; margin: 12vh auto; background: var(--papier); box-shadow: var(--schaduw); padding: 30px 34px; }
+.nog-niets h1 { margin: 0 0 10px; font-size: 24px; }
+.nog-niets p { margin: 0 0 10px; }
+.nog-niets code { background: var(--tafel); padding: 2px 6px; border-radius: 3px; }
+
+@keyframes knipper { 50% { opacity: .25; } }
+@keyframes neerkomen { from { transform: scale(1.6) rotate(-14deg); opacity: 0; } }
+
+@media (max-width: 1180px) {
+  .werkblad { grid-template-columns: 1fr; }
+  .zij { position: static; display: grid; grid-template-columns: 1fr 1fr; }
+}
+@media (max-width: 900px) {
+  .estafette { grid-template-columns: 1fr 1fr; gap: 16px; }
+  .loper { margin-right: 0; }
+  .loper::after { display: none; }
+}
+@media (max-width: 600px) {
+  .pagina { padding: 16px 16px 32px; }
+  .kop { grid-template-columns: 1fr; }
+  .klok { text-align: left; }
+  .estafette { grid-template-columns: 1fr; }
+  .zij { grid-template-columns: 1fr; }
+  .briefing .blad { padding: 20px 18px; }
+  .detail .regel { grid-template-columns: 1fr; gap: 2px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation: none !important; transition: none !important; }
+}
+</style>
+</head>
+<body>
+<div id="app"></div>
+<dialog id="detail" aria-labelledby="detail-titel"><div class="detail" id="detail-inhoud"></div></dialog>
+
+<script>
+(function () {
+  "use strict";
+  const STAPPEN = ["triage", "scoring", "feedback", "briefing"];
+  const WERKWOORD = { triage: "sorteert", scoring: "scoort", feedback: "schrijft feedback", briefing: "vat samen voor de docent" };
+  const BEZIG_TEKST = { triage: "wordt gesorteerd", scoring: "wordt gescoord", feedback: "feedback wordt geschreven" };
+  const app = document.getElementById("app");
+  const dialoog = document.getElementById("detail");
+  const dialoogInhoud = document.getElementById("detail-inhoud");
+
+  let S = null;            // huidige toestand
+  let vorige = {};         // per leerling: welke markeringen er al stonden (voor de neerkom-animatie)
+  let laatsteJSON = "";
+  let openId = null;
+  let geladen = false;
+
+  // ── hulpjes ──────────────────────────────────────────────────────────
+  const esc = (t) => String(t == null ? "" : t).replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+  const mmss = (ms) => { const s = Math.max(0, Math.round(ms / 1000)); return Math.floor(s / 60) + ":" + String(s % 60).padStart(2, "0"); };
+  const kortModel = (m) => (m || "").replace(/^(CLUSTER|ERASMUS)\./, "");
+  const nu = () => Date.now();
+  const kantel = (id) => { let h = 0; for (const c of id) h = (h * 31 + c.charCodeAt(0)) % 997; return ((h % 13) - 6) / 10; };
+  const tagTekst = (t) => (t || "").replace(/^\[|\]$/g, "");
+
+  // ── minimale markdown (koppen, lijsten, tabellen, citaat, vet/cursief) ─
+  function inline(t) {
+    return esc(t)
+      .replace(/`([^`]+)`/g, "<code>$1</code>")
+      .replace(/\*\*([^*]+)\*\*/g, "<strong>$1</strong>")
+      .replace(/(^|[^*])\*([^*\s][^*]*)\*/g, "$1<em>$2</em>")
+      .replace(/(^|\W)_([^_\s][^_]*)_(?=\W|$)/g, "$1<em>$2</em>");
+  }
+  function markdown(src) {
+    const regels = String(src || "").replace(/\r/g, "").split("\n");
+    let html = "", i = 0;
+    const isTabel = (r) => /^\s*\|.*\|\s*$/.test(r);
+    while (i < regels.length) {
+      const r = regels[i];
+      if (!r.trim()) { i++; continue; }
+      let m;
+      if ((m = r.match(/^(#{1,4})\s+(.*)$/))) {
+        const niveau = m[1].length <= 2 ? "h2" : "h3";
+        html += `<div class="kopblok"><${niveau}>${inline(m[2])}</${niveau}></div>`; i++; continue;
+      }
+      if (/^\s*(-{3,}|\*{3,})\s*$/.test(r)) { html += "<hr>"; i++; continue; }
+      if (isTabel(r)) {
+        const rijen = [];
+        while (i < regels.length && isTabel(regels[i])) { rijen.push(regels[i]); i++; }
+        const cellen = (x) => x.trim().replace(/^\||\|$/g, "").split("|").map((c) => c.trim());
+        const kop = cellen(rijen[0]);
+        const lijf = rijen.slice(1).filter((x) => !/^\s*\|?\s*:?-{2,}/.test(x));
+        html += "<table><thead><tr>" + kop.map((c) => `<th>${inline(c)}</th>`).join("") + "</tr></thead><tbody>" +
+          lijf.map((x) => "<tr>" + cellen(x).map((c) => `<td>${inline(c)}</td>`).join("") + "</tr>").join("") + "</tbody></table>";
+        continue;
+      }
+      if (/^\s*>/.test(r)) {
+        const blok = [];
+        while (i < regels.length && /^\s*>/.test(regels[i])) { blok.push(regels[i].replace(/^\s*>\s?/, "")); i++; }
+        html += `<blockquote>${inline(blok.join(" "))}</blockquote>`; continue;
+      }
+      if (/^\s*([-*+]|\d+[.)])\s+/.test(r)) {
+        const geordend = /^\s*\d+[.)]/.test(r);
+        const items = [];
+        while (i < regels.length && (/^\s*([-*+]|\d+[.)])\s+/.test(regels[i]) || (/^\s{2,}\S/.test(regels[i]) && items.length))) {
+          const x = regels[i];
+          if (/^\s*([-*+]|\d+[.)])\s+/.test(x)) items.push({ diep: /^\s{2,}/.test(x), t: x.replace(/^\s*([-*+]|\d+[.)])\s+/, "") });
+          else items[items.length - 1].t += " " + x.trim();
+          i++;
+        }
+        const tag = geordend ? "ol" : "ul";
+        const begin = geordend ? parseInt(r.trim(), 10) || 1 : 1;
+        html += `<${tag}${begin > 1 ? ` start="${begin}"` : ""}>` + items.map((it) => `<li${it.diep ? ' style="margin-left:18px;list-style:circle"' : ""}>${inline(it.t)}</li>`).join("") + `</${tag}>`;
+        continue;
+      }
+      const alinea = [];
+      while (i < regels.length && regels[i].trim() && !/^(#{1,4}\s|\s*>|\s*([-*+]|\d+[.)])\s+|\s*\|)/.test(regels[i])) { alinea.push(regels[i]); i++; }
+      if (!alinea.length) { alinea.push(regels[i]); i++; }
+      html += `<p>${inline(alinea.join(" "))}</p>`;
+    }
+    return html;
+  }
+
+  // ── tellingen ────────────────────────────────────────────────────────
+  function tel(s) {
+    const L = s.leerlingen;
+    const getriageerd = L.filter((l) => l.triage);
+    const geldig = L.filter((l) => l.triage === "GELDIG");
+    const gescoord = L.filter((l) => l.score_s != null);
+    const metFeedback = L.filter((l) => l.feedback_s != null);
+    return {
+      triage: { klaar: getriageerd.length, totaal: L.length },
+      scoring: { klaar: gescoord.length, totaal: s.stappen.triage.status === "klaar" ? geldig.length : null },
+      feedback: { klaar: metFeedback.length, totaal: s.stappen.scoring.status === "klaar" ? gescoord.length : null },
+      briefing: { klaar: s.briefing ? 1 : 0, totaal: 1 },
+      geldig: geldig.length, ongeldig: getriageerd.length - geldig.length, gescoord
+    };
+  }
+
+  // ── weergave ─────────────────────────────────────────────────────────
+  function render() {
+    if (!S) {
+      app.innerHTML = `<div class="nog-niets"><h1>Nog geen run gestart</h1>
+        <p>Start de estafette in een terminal in deze map:</p>
+        <p><code>python pipeline_live.py</code></p>
+        <p>Of oefen zonder gateway: <code>python pipeline_live.py --simulatie</code></p>
+        <p>Deze pagina werkt zichzelf bij zodra de run begint. Je hoeft niet te verversen.</p></div>`;
+      return;
+    }
+    const t = tel(S);
+    const verstreken = (S.klaar_op || nu()) - S.gestart;
+    const statusTekst = S.status === "klaar" ? "klaar" : S.status === "fout" ? "gestopt door een fout" : (S.modus === "simulatie" ? "simulatie loopt" : "live");
+
+    let html = `<div class="pagina">
+      <header class="kop">
+        <div><h1>Nakijk-estafette: exit-ticket waterkringloop</h1>
+          <p class="vraag">${esc(S.vraag)}</p></div>
+        <div class="klok"><div class="tijd" id="klok">${mmss(verstreken)}</div>
+          <div class="status ${esc(S.status)}"><span class="punt"></span>${esc(statusTekst)}</div></div>
+        ${S.modus === "simulatie" ? `<div class="sim-melding">Simulatie: dit speelt opgenomen modelantwoorden na, er draait nu geen model.</div>` : ""}
+        ${S.status === "fout" ? `<div class="sim-melding" style="color:var(--fout);border-color:var(--fout)">${esc(S.fout)}</div>` : ""}
+      </header>
+      <section class="estafette" aria-label="De vier modellen in de estafette">${STAPPEN.map((k) => loper(k, t)).join("")}</section>
+      <div class="werkblad">
+        <section aria-labelledby="kop-tickets">
+          <div class="sectiekop"><h2 id="kop-tickets">De klas: ${S.leerlingen.length} exit-tickets</h2>
+            <p>${t.ongeldig ? `${t.ongeldig} apart gelegd` : "Klik op een ticket voor alle details"}</p></div>
+          <div class="tickets">${S.leerlingen.map(ticket).join("")}</div>
+        </section>
+        <aside class="zij">${controle()}${klasbeeld(t)}${logboek()}</aside>
+      </div>
+      ${briefingBlok()}
+    </div>`;
+    app.innerHTML = html;
+    if (openId) vulDetail(openId);
+  }
+
+  function loper(k, t) {
+    const st = S.stappen[k];
+    const v = t[k];
+    const model = st.gebruikt || st.probeert || st.bedoeld;
+    const vervangen = st.gebruikt && st.gebruikt !== st.bedoeld;
+    const pct = v.totaal ? Math.round((100 * v.klaar) / v.totaal) : 0;
+    const duur = st.status === "klaar" ? mmss(st.duur * 1000) : st.status === "bezig" && st.gestart ? mmss(nu() - st.gestart) : "";
+    const statusLabel = st.status === "klaar" ? `klaar in ${duur}` : st.status === "bezig" ? `aan het werk, <span data-sinds="${st.gestart}">${duur}</span>` : "wacht op het stokje";
+    let extra = "";
+    const veld = { triage: "triage_model", scoring: "score_model", feedback: "feedback_model" }[k];
+    const anderen = {};
+    if (veld) S.leerlingen.forEach((l) => { const m = l[veld]; if (m && m !== model && !m.startsWith("voorfilter")) anderen[m] = (anderen[m] || 0) + 1; });
+    const ookTekst = Object.entries(anderen).map(([m, n]) => `${esc(kortModel(m))} ${n}×`).join(", ");
+    if (vervangen) extra = `<div class="vervangt">valt in voor <s>${esc(kortModel(st.bedoeld))}</s></div>`;
+    else if (st.status === "bezig" && !st.gebruikt && st.uitgevallen.length) extra =`<div class="vervangt">${esc(kortModel(st.uitgevallen[st.uitgevallen.length - 1].model))} viel uit</div>`;
+    if (ookTekst) extra += `<div class="vervangt">ook ingevallen: ${ookTekst}</div>`;
+    return `<article class="loper ${esc(st.status)}" data-stap="${k}">
+      <div class="naam"><strong>${esc(st.naam)}</strong><span>${WERKWOORD[k]}</span></div>
+      <div class="model">${esc(kortModel(model))}</div>${extra}
+      <div class="voortgang"><div class="balk"><i style="width:${pct}%"></i></div>
+        <div class="teller"><span><b>${v.klaar}</b>${v.totaal != null ? " / " + v.totaal : ""}</span><span>${statusLabel}</span></div></div>
+    </article>`;
+  }
+
+  function afwijkingen(l) {
+    const v = l.verwacht || {};
+    const uit = [];
+    if (l.triage && v.triage && l.triage !== v.triage) uit.push(`verwacht ${v.triage}`);
+    if (l.score_s != null && v.score != null && l.score !== v.score) uit.push(`verwacht ${v.score}/2`);
+    return uit;
+  }
+
+  function ticket(l) {
+    const was = vorige[l.id] || {};
+    const net = (sleutel, nuAanwezig) => (nuAanwezig && !was[sleutel] && geladen ? " net" : "");
+    const leeg = !(l.antwoord || "").trim();
+    const klassen = ["ticket"];
+    if (l.actief) klassen.push("actief-" + l.actief);
+    if (l.triage === "ONGELDIG") klassen.push("ongeldig");
+    const af = afwijkingen(l);
+    if (af.length) klassen.push("wijkt-af");
+    const score = l.score_s != null ? `<div class="score${net("score", true)}" aria-label="score ${l.score == null ? "onleesbaar" : l.score + " van 2"}">${l.score == null ? "?" : l.score + "/2"}</div>` : "";
+    const doorRegel = (l.triage_model || "").startsWith("voorfilter");
+    const stempel = l.triage ? `<span class="stempel${doorRegel ? " regel" : ""}${net("triage", true)}">${esc(l.triage)}</span>${doorRegel ? `<div class="regel-uitleg">vaste regel, geen model</div>` : ""}` : "";
+    const tag = l.score_s != null && l.fout_tag ? `<div class="tag${net("tag", true)}">${esc(tagTekst(l.fout_tag))}</div>` : "";
+    const fb = l.feedback_s != null ? `<div class="feedback${net("feedback", true)}">${esc(l.feedback)}</div>` : "";
+    const bezig = l.actief ? `<div class="bezig-label"><span>${BEZIG_TEKST[l.actief]}</span> <span data-sinds="${l.actief_sinds}">${mmss(nu() - l.actief_sinds)}</span></div>` : "";
+    return `<button class="${klassen.join(" ")}" style="--kantel:${kantel(l.id)}deg" data-id="${esc(l.id)}" aria-label="Exit-ticket ${esc(l.id)}">
+      <div class="boven"><div><div class="lid">${esc(l.id)}</div>${stempel}</div>${score}</div>
+      <div class="antwoord${leeg ? " leeg" : ""}">${leeg ? "(leeg ingeleverd)" : esc(l.antwoord)}</div>
+      ${af.length ? `<div class="afwijking">≠ ${esc(af.join(", "))}</div>` : ""}${tag}${fb}${bezig}
+    </button>`;
+  }
+
+  function controle() {
+    const L = S.leerlingen.filter((l) => l.verwacht);
+    if (!L.length) return "";
+    const tri = L.filter((l) => l.triage);
+    const triGoed = tri.filter((l) => l.triage === l.verwacht.triage);
+    const sc = L.filter((l) => l.score_s != null && l.verwacht.score != null);
+    const scGoed = sc.filter((l) => l.score === l.verwacht.score);
+    const mis = (lijst, goed) => lijst.filter((l) => !goed.includes(l)).map((l) => l.id).join(", ");
+    const regel = (naam, goed, lijst) => !lijst.length ? `<div class="check"><span>${naam}</span><b>—</b></div>` :
+      `<div class="check"><span>${naam}</span><b>${goed.length} / ${lijst.length}</b>${goed.length < lijst.length ? `<span class="mis">mis: ${esc(mis(lijst, goed))}</span>` : ""}</div>`;
+    return `<section class="paneel"><h2>Klopt het?</h2><p class="uitleg">Vergeleken met de verwachte uitkomst per leerling.</p>
+      ${regel("Triage (voorfilter + Tev1)", triGoed, tri)}${regel("Score (Nimble)", scGoed, sc)}</section>`;
+  }
+
+  function klasbeeld(t) {
+    const g = t.gescoord.filter((l) => l.score != null);
+    if (!g.length) return `<section class="paneel"><h2>Klasbeeld</h2><p class="leeg-melding">Verschijnt zodra Nimble de eerste scores geeft.</p></section>`;
+    const gem = (g.reduce((a, l) => a + l.score, 0) / g.length).toFixed(2).replace(".", ",");
+    const verdeling = [2, 1, 0].map((s) => ({ label: s === 2 ? "2 punten, volledig" : s === 1 ? "1 punt, deels" : "0 punten, nog niet", n: g.filter((l) => l.score === s).length }));
+    const tags = {};
+    t.gescoord.forEach((l) => { const k = tagTekst(l.fout_tag); if (k) tags[k] = (tags[k] || 0) + 1; });
+    const tagRijen = Object.entries(tags).sort((a, b) => b[1] - a[1]);
+    const max = Math.max(1, ...verdeling.map((v) => v.n), ...tagRijen.map((x) => x[1]));
+    const staaf = (label, n) => `<div class="staaf"><span class="label">${esc(label)}</span><span class="spoor"><i style="width:${(100 * n) / max}%"></i></span><span class="getal">${n}</span></div>`;
+    return `<section class="paneel"><h2>Klasbeeld</h2>
+      <div class="kengetal"><div><b>${gem}</b>gemiddeld van 2</div><div><b>${g.length}</b>gescoord</div><div><b>${t.ongeldig}</b>apart gelegd</div></div>
+      ${verdeling.map((v) => staaf(v.label, v.n)).join("")}
+      <h2 style="margin-top:18px">Fouten</h2>
+      ${tagRijen.map(([k, n]) => staaf(k, n)).join("")}
+    </section>`;
+  }
+
+  function logboek() {
+    const items = S.log.slice(-80).reverse();
+    return `<section class="paneel"><h2>Logboek</h2>
+      <ol class="logboek">${items.map((e) => `<li class="${esc(e.soort)}" data-stap="${esc(e.stap || "")}"><time>${mmss(e.t - S.gestart)}</time><span class="tekst">${esc(e.tekst)}</span></li>`).join("")}</ol></section>`;
+  }
+
+  function briefingBlok() {
+    const st = S.stappen.briefing;
+    let inhoud;
+    if (S.briefing) {
+      inhoud = `<div class="md">${markdown(S.briefing.markdown)}</div>
+        <p class="bron">${S.briefing.lokaal ? "Qwen was niet bereikbaar; dit is de vaste reserve-briefing." : `Geschreven door ${esc(kortModel(S.briefing.model))} op basis van de scores en fout-tags hierboven.`}</p>`;
+    } else if (st.status === "bezig") {
+      inhoud = `<p class="wacht">Qwen leest alle scores en feedback en schrijft de briefing…</p>`;
+    } else {
+      inhoud = `<p class="wacht">Qwen schrijft de briefing zodra alle feedback binnen is.</p>`;
+    }
+    return `<section class="briefing" aria-labelledby="kop-briefing"><div class="sectiekop"><h2 id="kop-briefing">Docent-briefing</h2></div><div class="blad">${inhoud}</div></section>`;
+  }
+
+  // ── detailvenster ────────────────────────────────────────────────────
+  function vulDetail(id) {
+    const l = S.leerlingen.find((x) => x.id === id);
+    if (!l) return;
+    const leeg = !(l.antwoord || "").trim();
+    const wie = (model, sec) => model ? `<div class="wie">${esc(kortModel(model))}${sec ? `, ${String(sec).replace(".", ",")} s` : ""}</div>` : "";
+    const regel = (stap, titel, inhoud) => `<div class="regel" data-stap="${stap}"><b>${titel}</b><div>${inhoud}</div></div>`;
+    let h = `<header><h2 id="detail-titel">Exit-ticket ${esc(l.id)}</h2><button class="sluit" type="button" data-sluit>Sluiten</button></header>
+      <p class="antwoord-groot">${leeg ? "<em>(leeg ingeleverd)</em>" : esc(l.antwoord)}</p>`;
+    const v = l.verwacht;
+    if (v) h += regel("", "Verwacht", `<span>${esc(v.triage)}${v.score != null ? `, ${v.score}/2` : ""}</span>${afwijkingen(l).length ? ` <span class="afwijking">wijkt af</span>` : ""}`);
+    h += regel("triage", "Tev1", l.triage ? `<span class="stempel${(l.triage_model || "").startsWith("voorfilter") ? " regel" : ""}">${esc(l.triage)}</span>${l.triage_reden ? ` <span class="wie">(${esc(l.triage_reden)})</span>` : ""}${wie(l.triage_model, l.triage_s)}` : "<span class=wie>nog niet gesorteerd</span>");
+    if (l.triage !== "ONGELDIG") {
+      h += regel("scoring", "Nimble", l.score_s != null ? `<span class="hand" style="color:var(--rood)">${l.score == null ? "onleesbaar" : l.score + "/2"}, ${esc(tagTekst(l.fout_tag))}</span>${wie(l.score_model, l.score_s)}` : "<span class=wie>nog niet gescoord</span>");
+      h += regel("feedback", esc(S.stappen.feedback.naam), l.feedback_s != null ? `<div class="hand" style="color:var(--groen)">${esc(l.feedback)}</div>${wie(l.feedback_model, l.feedback_s)}` : "<span class=wie>nog geen feedback</span>");
+    } else {
+      h += regel("scoring", "", `<span class="wie">Apart gelegd: dit ticket gaat niet door naar scoring en feedback.</span>`);
+    }
+    dialoogInhoud.innerHTML = h;
+  }
+  app.addEventListener("click", (e) => {
+    const knop = e.target.closest(".ticket");
+    if (!knop) return;
+    openId = knop.dataset.id; vulDetail(openId);
+    if (!dialoog.open) dialoog.showModal();
+  });
+  dialoog.addEventListener("click", (e) => { if (e.target === dialoog || e.target.closest("[data-sluit]")) dialoog.close(); });
+  dialoog.addEventListener("close", () => { openId = null; });
+
+  // ── klok: tikt tussen updates door ───────────────────────────────────
+  setInterval(() => {
+    if (!S) return;
+    const k = document.getElementById("klok");
+    if (k && S.status === "bezig") k.textContent = mmss(nu() - S.gestart);
+    document.querySelectorAll("[data-sinds]").forEach((el) => { const s = +el.dataset.sinds; if (s) el.textContent = mmss(nu() - s); });
+  }, 500);
+
+  // ── gegevens binnenhalen ─────────────────────────────────────────────
+  function ontvang(s) {
+    const j = JSON.stringify(s);
+    if (j === laatsteJSON) return;
+    if (S && s.run_id !== S.run_id) { vorige = {}; geladen = false; }   // nieuwe run gestart
+    laatsteJSON = j; S = s;
+    const scrollY = window.scrollY;
+    const focusId = document.activeElement && document.activeElement.dataset ? document.activeElement.dataset.id : null;
+    const logScroll = (document.querySelector(".logboek") || {}).scrollTop || 0;
+    render();
+    window.scrollTo(0, scrollY);
+    const lb = document.querySelector(".logboek"); if (lb) lb.scrollTop = logScroll;
+    if (focusId) { const el = app.querySelector(`.ticket[data-id="${focusId}"]`); if (el) el.focus({ preventScroll: true }); }
+    vorige = {};
+    S.leerlingen.forEach((l) => { vorige[l.id] = { triage: !!l.triage, score: l.score_s != null, tag: l.score_s != null, feedback: l.feedback_s != null }; });
+    geladen = true;
+  }
+  window.__clefState = ontvang;
+
+  if (window.__clefInline) {            // momentopname na afloop: geen polling
+    ontvang(window.__clefInline);
+    return;
+  }
+  render();
+  function haal() {
+    const sc = document.createElement("script");
+    sc.src = "live_state.js?t=" + nu();
+    sc.onload = sc.onerror = () => sc.remove();
+    document.head.appendChild(sc);
+  }
+  haal();
+  setInterval(haal, 1000);
+})();
+</script>
+</body>
+</html>

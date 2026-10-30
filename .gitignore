@@ -1,0 +1,25 @@
+# Geheimen: nooit committen (zie .env.example)
+.env
+.env.*
+!.env.example
+
+# Video-productie (groot, eigen spoor)
+video/
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Runtime-bestanden van het live-dashboard
+live_state.js
+live_state.js.tmp
+
+# Lokaal archief: OpenCode-versie en de oorspronkelijke prompt
+archief/
+
+# Editor/OS
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
+.DS_Store

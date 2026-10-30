@@ -1,0 +1,376 @@
+[
+ {
+  "variant": "A: Qwen, 1 aanroep per leerling",
+  "sec": 72.8,
+  "triage": 15,
+  "score": 10,
+  "score_n": 12,
+  "feedback": 18,
+  "mis_t": [
+   "L10",
+   "L11",
+   "L12",
+   "L13",
+   "L20"
+  ],
+  "mis_s": [
+   "L08:0≠1",
+   "L19:0≠1"
+  ],
+  "res": {
+   "L01": {
+    "triage": "GELDIG",
+    "score": 2,
+    "fout_tag": "Geen fout",
+    "feedback": "Je hebt de drie belangrijkste fasen van de waterkringloop correct en in de juiste volgorde beschreven. Je antwoord is volledig en duidelijk."
+   },
+   "L02": {
+    "triage": "GELDIG",
+    "score": 2,
+    "fout_tag": "Geen fout",
+    "feedback": "Je hebt de drie fasen correct benoemd en de volgorde logisch beschreven. Je antwoord is volledig en accuraat."
+   },
+   "L03": {
+    "triage": "GELDIG",
+    "score": 2,
+    "fout_tag": "Geen fout",
+    "feedback": "Je hebt de drie belangrijkste fasen van de waterkringloop correct in de juiste volgorde benoemd. Goed gedaan, je snapt het mechanisme van verdamping, condensatie en neerslag."
+   },
+   "L04": {
+    "triage": "GELDIG",
+    "score": 1,
+    "fout_tag": "Vergeet condensatie",
+    "feedback": "Je noemt correct verdamping en neerslag, maar je mist de fase condensatie waarbij waterdamp in de lucht wolkvorming ondergaat. Voeg deze stap toe om de volledige kringloop te beschrijven."
+   },
+   "L05": {
+    "triage": "GELDIG",
+    "score": 1,
+    "fout_tag": "Vergeet condensatie",
+    "feedback": "Je noemt correct neerslag en verdamping, maar je mist de fase condensatie waarbij waterdamp in de lucht weer tot wolkjes wordt. Zorg dat je ook uitlegt hoe de damp omhoog komt en daar wolkvorming ondergaat voordat het regent."
+   },
+   "L06": {
+    "triage": "GELDIG",
+    "score": 1,
+    "fout_tag": "Vergeet neerslag",
+    "feedback": "Je beschrijft de opwaartse beweging van water correct, maar je vergeten de fase van neerslag. Zorg dat je ook uitlegt dat het water weer als regen of sneeuw naar beneden valt om de kringloop te sluiten."
+   },
+   "L07": {
+    "triage": "GELDIG",
+    "score": 1,
+    "fout_tag": "Vergeet verdamping",
+    "feedback": "Je beschrijft correct dat neerslag in de zee terechtkomt, maar je mist de fasen verdamping en condensatie. Kijk hoe water eerst verdampt en dan in de lucht weer condensatie vormt voordat het als regen valt."
+   },
+   "L08": {
+    "triage": "GELDIG",
+    "score": 0,
+    "fout_tag": "Begripsfout",
+    "feedback": "Je beschrijft hier vooral de afvoer naar de zee, maar de waterkringloop draait om verdamping, condensatie en neerslag. Kijk hoe water via verdamping de lucht in gaat, daar wolkjes vormt en als regen terugvalt."
+   },
+   "L09": {
+    "triage": "GELDIG",
+    "score": 1,
+    "fout_tag": "Begripsfout",
+    "feedback": "Je hebt verdamping correct genoemd, maar water wordt niet door wind geduwd; het condenseert in de lucht tot wolken en valt daarna als neerslag terug naar de aarde."
+   },
+   "L10": {
+    "triage": "ONGELDIG",
+    "score": 0,
+    "fout_tag": "Begripsfout",
+    "feedback": "Je beschrijft de kringloop als een abstracte cirkel, maar je noemt geen enkele van de drie benodigde fasen. Leg uit hoe water via verdamping, condensatie en neerslag van de aarde naar de lucht en terug komt."
+   },
+   "L11": {
+    "triage": "ONGELDIG",
+    "score": 0,
+    "fout_tag": "Begripsfout",
+    "feedback": "Je beschrijft hier getijden, die inderdaad door de maan worden veroorzaakt, maar de waterkringloop draait om verdamping, condensatie en neerslag. Kijk naar hoe water verdampt, in wolken verandert en als regen terugvalt."
+   },
+   "L12": {
+    "triage": "ONGELDIG",
+    "score": 0,
+    "fout_tag": "Begripsfout",
+    "feedback": "Dit is een misvatting: vissen duwen geen water de lucht in, maar de waterkringloop wordt aangedreven door zonne-energie. De belangrijkste fasen zijn verdamping, condensatie en neerslag."
+   },
+   "L13": {
+    "triage": "ONGELDIG",
+    "score": 0,
+    "fout_tag": "Begripsfout",
+    "feedback": "Water heeft geen honger, maar verandert van toestand door energie. Kijk naar hoe water verdampt, condenseert en als neerslag terugvalt."
+   },
+   "L14": {
+    "triage": "ONGELDIG",
+    "score": 0,
+    "fout_tag": "Begripsfout",
+    "feedback": "Dit is een misvatting: de waterkringloop wordt niet aangedreven door dieren, maar door zonne-energie die water verdampt. Probeer de drie fasen verdamping, condensatie en neerslag te benoemen."
+   },
+   "L15": {
+    "triage": "GELDIG",
+    "score": 0,
+    "fout_tag": "Begripsfout",
+    "feedback": "De zon drinkt het water niet, maar zorgt voor verdamping. Je moet uitleggen dat water verdampt, in de lucht condenseert tot wolken en als neerslag terugvalt."
+   },
+   "L18": {
+    "triage": "GELDIG",
+    "score": 1,
+    "fout_tag": "Vergeet condensatie",
+    "feedback": "Je noemt correct verdamping en neerslag, maar je mist de fase condensatie waarbij de waterdamp in de lucht weer tot wolkjes wordt. Zorg dat je ook uitlegt hoe de damp omzet in vloeibaar water voordat het als regen valt."
+   },
+   "L19": {
+    "triage": "GELDIG",
+    "score": 0,
+    "fout_tag": "Begripsfout",
+    "feedback": "Het water loopt niet actief de berg op, maar verdampt door de warmte van de zon. Je mist de fasen verdamping en condensatie, dus focus op hoe waterdamp omhoog komt en weer neerdalt."
+   },
+   "L20": {
+    "triage": "ONGELDIG",
+    "score": 0,
+    "fout_tag": "Begripsfout",
+    "feedback": "Je noemt wel wolken en regen, maar je mist de cruciale stappen van verdamping en condensatie. Probeer de volgorde te herhalen: water verdampt, vormt wolken door condensatie en valt als neerslag."
+   }
+  }
+ },
+ {
+  "variant": "B: Qwen, zelfde stappen als estafette",
+  "sec": 75.1,
+  "triage": 15,
+  "score": 9,
+  "score_n": 12,
+  "feedback": 12,
+  "mis_t": [
+   "L11",
+   "L12",
+   "L13",
+   "L15",
+   "L19"
+  ],
+  "mis_s": [
+   "L07:0≠1",
+   "L08:0≠1",
+   "L09:0≠1"
+  ],
+  "res": {
+   "L01": {
+    "triage": "GELDIG",
+    "score": 2,
+    "fout_tag": "Geen fout",
+    "feedback": "Mooi gedaan, je beschrijft de volledige waterkringloop perfect. Je hebt de drie belangrijkste fasen, namelijk verdamping, condensatie en neerslag, correct in de juiste volgorde benoemd."
+   },
+   "L02": {
+    "triage": "GELDIG",
+    "score": 2,
+    "fout_tag": "Geen fout",
+    "feedback": "Mooi gedaan, je hebt de drie fasen van de waterkringloop perfect in de juiste volgorde benoemd. Je antwoord is volledig correct en laat zien dat je het proces van verdamping tot neerslag goed begrijpt."
+   },
+   "L03": {
+    "triage": "GELDIG",
+    "score": 2,
+    "fout_tag": "Geen fout",
+    "feedback": "Mooi gedaan, je beschrijft de waterkringloop perfect! Je hebt de stappen van verdamping, condensatie en neerslag exact in de juiste volgorde genoemd."
+   },
+   "L04": {
+    "triage": "GELDIG",
+    "score": 1,
+    "fout_tag": "Vergeet condensatie",
+    "feedback": "Goed dat je de verdamping en neerslag noemt, maar vergeet de condensatie niet: waterdamp moet eerst afkoelen en weer vloeibaar worden voordat het kan regenen."
+   },
+   "L05": {
+    "triage": "GELDIG",
+    "score": 1,
+    "fout_tag": "Vergeet condensatie",
+    "feedback": "Goed dat je de neerslag en verdamping herkent, maar de waterkringloop begint met verdamping en vereist condensatie om wolken te vormen voordat het regent. Probeer de volgorde dus: verdamping, condensatie, neerslag."
+   },
+   "L06": {
+    "triage": "GELDIG",
+    "score": 1,
+    "fout_tag": "Begripsfout",
+    "feedback": "Je hebt goed begrepen dat de zon het water verwarmt, maar wolken ontstaan niet doordat het water zelf omhoog komt. De volgende stap is om te beseffen dat het water eerst verdampt tot onzichtbare waterdamp, die pas later in de lucht condenseert tot kleine druppels die we zien als wolken."
+   },
+   "L07": {
+    "triage": "GELDIG",
+    "score": 0,
+    "fout_tag": "Begripsfout",
+    "feedback": "Goed dat je de verbinding maakt met de zee, maar wolken vallen niet letterlijk uit de lucht; het water verdampt, condenseert tot wolken en valt terug als neerslag. Let op dat neerslag het proces is waarbij het water weer naar beneden komt."
+   },
+   "L08": {
+    "triage": "GELDIG",
+    "score": 0,
+    "fout_tag": "Begripsfout",
+    "feedback": "Je hebt goed begrepen dat water via rivieren naar de zee stroomt, maar het komt niet direct in de lucht. De volgende stap is om te onthouden dat water eerst verdampt van het wateroppervlak voordat het als neerslag weer naar beneden komt."
+   },
+   "L09": {
+    "triage": "GELDIG",
+    "score": 0,
+    "fout_tag": "Begripsfout",
+    "feedback": "Goed dat je ziet dat warmte water laat verdampen, maar let op: waterdamp wordt niet wind, want wind is bewegende lucht die de wolken meeneemt. Kijk naar de waterkringloop: de damp stijgt, koelt af en wordt condensatie die zich vormt tot wolken."
+   },
+   "L10": {
+    "triage": "GELDIG",
+    "score": 0,
+    "fout_tag": "Begripsfout",
+    "feedback": "Je hebt goed begrepen dat de waterkringloop een continu proces is, maar het is belangrijk om te weten dat water niet in een gesloten kring cirkelt, maar verdampt, condenseert en als neerslag terugvalt."
+   },
+   "L11": {
+    "triage": "ONGELDIG"
+   },
+   "L12": {
+    "triage": "ONGELDIG"
+   },
+   "L13": {
+    "triage": "ONGELDIG"
+   },
+   "L14": {
+    "triage": "ONGELDIG"
+   },
+   "L15": {
+    "triage": "ONGELDIG"
+   },
+   "L18": {
+    "triage": "GELDIG",
+    "score": 1,
+    "fout_tag": "Vergeet condensatie",
+    "feedback": "Goed dat je de verdamping en neerslag benoemt, maar vergeet niet dat het verdampte water eerst moet condenseren tot wolkjes voordat het als regen kan vallen."
+   },
+   "L19": {
+    "triage": "ONGELDIG"
+   },
+   "L20": {
+    "triage": "GELDIG",
+    "score": 0,
+    "fout_tag": "Begripsfout",
+    "feedback": "Geen zorgen, het is prima dat je de verbinding met wolken en regen ziet, maar de fases hebben wel specifieke namen. De belangrijkste stap is om te onthouden dat water eerst verdampt, dan condenseert tot wolkjes en tenslotte als neerslag naar beneden komt."
+   }
+  }
+ },
+ {
+  "variant": "C: Qwen, hele klas in 1 aanroep",
+  "sec": 63.5,
+  "triage": 10,
+  "score": 6,
+  "score_n": 7,
+  "feedback": 18,
+  "mis_t": [
+   "L07",
+   "L08",
+   "L09",
+   "L10",
+   "L11",
+   "L12",
+   "L13",
+   "L15",
+   "L19",
+   "L20"
+  ],
+  "mis_s": [
+   "L03:1≠2"
+  ],
+  "res": {
+   "L01": {
+    "triage": "GELDIG",
+    "score": 2,
+    "fout_tag": "Geen fout",
+    "feedback": "Je hebt de drie fasen perfect in de juiste volgorde beschreven. Goed gedaan!"
+   },
+   "L02": {
+    "triage": "GELDIG",
+    "score": 2,
+    "fout_tag": "Geen fout",
+    "feedback": "Je noemt alle drie de fasen correct en legt het proces helder uit. Uitstekend!"
+   },
+   "L03": {
+    "triage": "GELDIG",
+    "score": 1,
+    "fout_tag": "Vergeet condensatie",
+    "feedback": "Je beschrijft verdamping en neerslag, maar je mist de fase waarin damp zich omzet in wolken. Noem expliciet condensatie om het proces compleet te maken."
+   },
+   "L04": {
+    "triage": "GELDIG",
+    "score": 1,
+    "fout_tag": "Vergeet condensatie",
+    "feedback": "Je hebt verdamping en neerslag genoemd, maar de overgangsfase ontbreekt. Verduidelijk hoe waterdamp eerst condensatie ondergaat tot wolken voordat het neerslag wordt."
+   },
+   "L05": {
+    "triage": "GELDIG",
+    "score": 1,
+    "fout_tag": "Foute volgorde",
+    "feedback": "Je noemt de juiste fasen, maar de volgorde is incorrect. De kringloop begint met verdamping, gevolgd door condensatie en daarna pas neerslag."
+   },
+   "L06": {
+    "triage": "GELDIG",
+    "score": 1,
+    "fout_tag": "Vergeet neerslag",
+    "feedback": "Je beschrijft de opwaartse beweging, maar je vergeten de terugkeer van het water naar de aarde. Voeg neerslag toe als de derde fase van de kringloop."
+   },
+   "L07": {
+    "triage": "ONGELDIG",
+    "score": 0,
+    "fout_tag": "Begripsfout",
+    "feedback": "Wolken vallen niet letterlijk uit de lucht; neerslag ontstaat door condensatie van waterdamp. Begin je uitleg bij verdamping om het proces correct te beschrijven."
+   },
+   "L08": {
+    "triage": "ONGELDIG",
+    "score": 0,
+    "fout_tag": "Begripsfout",
+    "feedback": "Water stroomt niet vanzelf de lucht in via rivieren; het verdampt eerst door zonnewarmte. Focus op de fasen verdamping, condensatie en neerslag."
+   },
+   "L09": {
+    "triage": "ONGELDIG",
+    "score": 0,
+    "fout_tag": "Begripsfout",
+    "feedback": "Verdamping wordt niet veroorzaakt door wind die wolken duwt, maar door warmte. Corrigeer dit mechanisme en noem de drie fasen: verdamping, condensatie en neerslag."
+   },
+   "L10": {
+    "triage": "ONGELDIG",
+    "score": 0,
+    "fout_tag": "Begripsfout",
+    "feedback": "Je beschrijft het concept vaag, maar noemt geen specifieke fasen. Leg uit hoe verdamping, condensatie en neerslag samen de kringloop vormen."
+   },
+   "L11": {
+    "triage": "ONGELDIG",
+    "score": 0,
+    "fout_tag": "Begripsfout",
+    "feedback": "De maan beïnvloedt getijden, niet de waterkringloop zelf. De kringloop draait om verdamping, condensatie en neerslag door zonnewarmte."
+   },
+   "L12": {
+    "triage": "ONGELDIG",
+    "score": 0,
+    "fout_tag": "Begripsfout",
+    "feedback": "Vissen duwen geen water de lucht in; dit is een misvatting. De waterkringloop werkt via verdamping, condensatie en neerslag."
+   },
+   "L13": {
+    "triage": "ONGELDIG",
+    "score": 0,
+    "fout_tag": "Begripsfout",
+    "feedback": "Water heeft geen honger; dit is een personificatie die niet past bij de wetenschappelijke uitleg. Beschrijf de fasen verdamping, condensatie en neerslag."
+   },
+   "L14": {
+    "triage": "ONGELDIG",
+    "score": 0,
+    "fout_tag": "Begripsfout",
+    "feedback": "Er bestaat geen dier dat water de lucht in spuit voor de kringloop. De processen zijn verdamping, condensatie en neerslag."
+   },
+   "L15": {
+    "triage": "ONGELDIG",
+    "score": 0,
+    "fout_tag": "Begripsfout",
+    "feedback": "De zon drinkt geen water; dit is een onjuiste uitspraak. De kringloop werkt via verdamping door warmte, condensatie en neerslag."
+   },
+   "L18": {
+    "triage": "GELDIG",
+    "score": 1,
+    "fout_tag": "Vergeet condensatie",
+    "feedback": "Je noemt verdamping en neerslag, maar de vorming van wolken ontbreekt. Voeg condensatie toe als de tussenfase in de kringloop."
+   },
+   "L19": {
+    "triage": "ONGELDIG",
+    "score": 0,
+    "fout_tag": "Begripsfout",
+    "feedback": "Water loopt niet letterlijk de berg op; het verdampt eerst. Beschrijf de fasen verdamping, condensatie en neerslag correct."
+   },
+   "L20": {
+    "triage": "ONGELDIG",
+    "score": 0,
+    "fout_tag": "Begripsfout",
+    "feedback": "Je herkent de termen wolken en regen, maar je mist de systematische fasen. Leer de volgorde: verdamping, condensatie en neerslag."
+   }
+  }
+ }
+]
